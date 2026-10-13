@@ -1,0 +1,75 @@
+# Participant-level data, derived results, and fitted models are never committed.
+# Each folder keeps only its README.md.
+data/*
+!data/README.md
+preprocessing_inputs/*
+!preprocessing_inputs/README.md
+outputs/*
+!outputs/README.md
+models/*
+!models/README.md
+
+# Data, result, and model file types anywhere in the repository.
+*.csv
+*.tsv
+*.txt
+*.xlsx
+*.xls
+*.rds
+*.Rds
+*.RDS
+*.rda
+*.RData
+*.Rdata
+*.parquet
+*.feather
+*.sas7bdat
+*.dta
+*.sav
+*.h5
+*.hdf5
+*.mzML
+*.raw
+*.log
+
+# Figures are generated outputs.
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.tif
+*.tiff
+*.svg
+
+# Notebook caches
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# R session state and renv library
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+.Rproj.user/
+Rplots.pdf
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/sandbox/
+renv/staging/
+renv.lock.bak
+
+# Local configuration and secrets
+.env
+.env.*
+secrets/
+credentials/
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
+.cursor/
+.cursorrules
